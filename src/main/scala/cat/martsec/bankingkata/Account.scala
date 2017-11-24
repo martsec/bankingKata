@@ -1,3 +1,5 @@
+package cat.martsec.bankingkata
+
 class Account {
 
   /**

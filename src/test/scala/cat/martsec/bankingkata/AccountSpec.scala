@@ -1,9 +1,9 @@
+package cat.martsec.bankingkata
+
 import org.scalatest._
 
-
 class AccountSpec extends WordSpec with Matchers {
-
-  "Account" should {
+  "cat.martsec.bankingkata.Account" should {
     "not have the same if for 2 instances" in {
       val c1 = new Account
       val c2 = new Account
@@ -26,7 +26,7 @@ class AccountSpec extends WordSpec with Matchers {
     }
 
     "not allow balance to be changed directly" in {
-      "val a = new Account; a.balance = 10" shouldNot compile
+      "val a = new cat.martsec.bankingkata.solution.Account; a.balance = 10" shouldNot compile
     }
 
     "not allow a negative deposit" in {

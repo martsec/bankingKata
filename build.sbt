@@ -1,4 +1,4 @@
-name := "bankingKata"
+name := "bankingkata"
 
 version := "0.1"
 
