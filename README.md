@@ -18,11 +18,16 @@ Your task is to show them that your TDD-fu and your new-age programming language
 
 ### Requirements
 
-Write a class Account that offers the following methods void deposit(double) double withdraw(double) void printStatements() and double balance
+Write a class `Account` that offers the following methods `void deposit(double)`  `double withdraw(double)` `void printStatements()` and `double balance`
 
 An example statement would be:
 
-Date        Amount  Balance
-24.12.2015   +500      500
-23.8.2016    -100      400
 
+Date            Amount      Balance
+24.12.2015      +500        500
+23.8.2016       -100        400
+
+
+## Solutions
+
+There are two solutions available. One is more java-like and the other one is more functional (thanks to Lau and Artur for this solution).
